@@ -15,9 +15,7 @@ class DefaultButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ClipRRect(
       borderRadius: BorderRadius.circular(25),
-      child: FlatButton(
-        padding: EdgeInsets.symmetric(horizontal: 25, vertical: 15),
-        color: kPrimaryColor,
+      child: TextButton(
         onPressed: press,
         child: Text(
           text.toUpperCase(),

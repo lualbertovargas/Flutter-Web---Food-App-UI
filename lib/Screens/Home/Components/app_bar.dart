@@ -33,23 +33,23 @@ class CustomAppBar extends StatelessWidget {
             style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
           ),
           Spacer(),
-          MenuItem(
+          MenuItemNew(
             title: "Home",
             press: () {},
           ),
-          MenuItem(
+          MenuItemNew(
             title: "about",
             press: () {},
           ),
-          MenuItem(
+          MenuItemNew(
             title: "Pricing",
             press: () {},
           ),
-          MenuItem(
+          MenuItemNew(
             title: "Contact",
             press: () {},
           ),
-          MenuItem(
+          MenuItemNew(
             title: "Login",
             press: () {},
           ),
